@@ -10,6 +10,13 @@
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+  </ItemGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0'">
     <DefineConstants>$(DefineConstants);PLAT_NO_REMOTING;PLAT_SKIP_LOCALS_INIT</DefineConstants>
