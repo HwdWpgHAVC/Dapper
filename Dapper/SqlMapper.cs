@@ -3,6 +3,9 @@
  Home page: https://github.com/DapperLib/Dapper-dot-net
  */
 
+
+// Ignore Spelling: Sql Collissions Impl Nullable
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
